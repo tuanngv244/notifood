@@ -1,0 +1,78 @@
+//==================== TEXTBOX =================//
+
+//==================== ITEM BLOG =================//
+
+//==================== CONTENT DETAIL =================//
+
+//========================= FORM ====================//
+
+//========================= SOCIAL ====================//
+
+//========================= HEROTOP ====================//
+
+//========================= PAGING ====================//
+
+//========================= PAGING ====================//
+.breadcrumb {
+  display: flex;
+  margin-bottom: 30px;
+
+  li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      &:after {
+        content: ">";
+        display: inline-block;
+        margin: 0 5px;
+        color: $black-cl;
+      }
+    }
+
+    a {
+      color: $black-cl;
+      font-size: var(--body16-fs);
+      text-transform: uppercase;
+      @include transition($t);
+
+      &:hover {
+        color: $black-cl;
+      }
+    }
+  }
+
+  @include xs {
+    margin-bottom: 20px;
+  }
+}
+
+//========================= NEXTPREV ====================//
+
+//========================= TABS ====================//
+
+.tabs {
+  .btnmain {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+
+    &:after {
+      background-color: $black-cl;
+    }
+
+    &.active {
+      &:after {
+        background-color: $main-cl;
+        width: 100%;
+      }
+    }
+  }
+
+  @include xs {
+    .btnmain {
+      height: 32px;
+      padding: 4px 15px 0 15px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.nav {
+  &__menu {
+    @include mid(true);
+    li {
+      a {
+        @include text(var(--h4-fs), $ff-nu-l, var(--h4-lh), $white-cl, none);
+        padding: 0 23px;
+      }
+    }
+    .active {
+      a {
+        color: $main-cl;
+      }
+    }
+
+    @include md {
+      li {
+        a {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+  @include xs {
+    display: none;
+  }
+}

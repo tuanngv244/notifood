@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Nu-el";
+  src: url("../fonts/NunitoSans-ExtraLight.woff") format("woff2"),
+    url("../fonts/NunitoSans-ExtraLight.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nu-r";
+  src: url("../fonts/NunitoSans-Regular.woff") format("woff2"),
+    url("../fonts/NunitoSans-Regular.woff2") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nu-sb";
+  src: url("../fonts/NunitoSans-SemiBold.woff") format("woff2"),
+    url("../fonts/NunitoSans-SemiBold.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nu-b";
+  src: url("../fonts/NunitoSans-Bold.woff") format("woff2"),
+    url("../fonts/NunitoSans-Bold.woff2") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be-l";
+  src: url("../fonts/BeVietnamPro-Light.woff") format("woff2"),
+    url("../fonts/BeVietnamPro-Light.woff2") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
